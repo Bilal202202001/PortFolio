@@ -30,6 +30,7 @@ export default function Projects() {
 
                             return (
                                 <div
+                                    key={index}
                                     className="relative w-full h-60 flex flex-col items-start justify-start bg-cover "
                                     style={projectBoxStyle}
                                     onMouseEnter={() => handleMouseEnter(index)}
