@@ -33,7 +33,7 @@ export default function NavBar() {
                 <Link href='#projects' >PROFILE</Link>
                 <Link href='#'>RESUME</Link>
                 <Link href='#'>BLOGS</Link>
-                <Link href='#'>ABOUT</Link>
+                <Link href='#'>ABOUT ME</Link>
                 <Link href='#'>CONTACT</Link>
             </div>
             <div className="h-3 border lg:flex hidden border-white mx-5">
