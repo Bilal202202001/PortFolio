@@ -1,0 +1,60 @@
+/* animations.css */
+.nav{
+  z-index: 1;
+}
+.hire{
+  animation: topUp 2s ease-in-out;
+}
+@keyframes topUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.profile{
+  border-radius: 1%;
+  animation: fadeIn 3s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.customUni{
+  animation: increaseWidth 2s ease-in;
+}
+.custom{
+  background-color: gray;
+  height: 2px;
+}
+@keyframes increaseWidth {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+.project{
+  animation: projectWidth 2s ease-in;
+
+}
+@keyframes projectWidth {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }}
+/* .navGen{
+  display: none;
+}   */
