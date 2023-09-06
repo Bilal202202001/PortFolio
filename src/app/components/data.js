@@ -102,7 +102,7 @@ export const projects = [
         img: "/images/adventure.png"
     },
     {
-        title: 'Airpods Web',
+        title: 'airpods Web',
         img: "/images/airpods.png"
     },
     {
@@ -110,7 +110,7 @@ export const projects = [
         img: "/images/NFT.png"
     },
     {
-        title: 'LinkIt Nextjs',
+        title: 'linkIt Nextjs',
         img: "/images/Linkit.png"
     }
 ];
