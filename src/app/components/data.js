@@ -103,7 +103,7 @@ export const projects = [
     },
     {
         title: 'Airpods Web',
-        img: "/images/airpods.png"
+        img: "/images/Airpods.png"
     },
     {
         title: 'NFT vue3.js',
@@ -136,7 +136,7 @@ export const certifications = [
     {
         
          title: 'JavaScript',
-        img: "/images/Js.jpeg",
+        img: "/images/JS.jpeg",
         technology:"JS Front-End",
         issueData:"03/Jan/2023",
         expiryDate:"-",
@@ -145,7 +145,7 @@ export const certifications = [
     },
     {
          title: 'Advanced Styling',
-        img: "/images/styling.jpeg",
+        img: "/images/Styling.jpeg",
         technology:"Font-End",
         issueData:"30/Jan/2023",
         expiryDate:"-",
