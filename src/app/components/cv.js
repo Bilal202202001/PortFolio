@@ -1,10 +1,7 @@
 'use client'
-import Link from "next/link";
-import * as Unicons from '@iconscout/react-unicons';
+import Image from 'next/image'
 import 'app.css';
 import HeadingTemp from "./headingTemp";
-import { GiGymBag } from "react-icons/gi";
-import { RiGraduationCapFill } from "react-icons/ri";
 
 export default function CV() {
     return (
@@ -13,7 +10,7 @@ export default function CV() {
                 <HeadingTemp heading={"ABOUT ME"} />
                 <div className="w-5/6 grid lg:grid-cols-2 md:grid-cols-1 ">
                     <div className="w-full p-2  flex items-center justify-center">
-                        <img src="/images/profile2.jpg" alt="profile" className="w-4/5 rounded-lg " />
+                        <Image height={500} width={500} src="/images/profile2.jpg" alt="profile" className="w-4/5 rounded-lg " />
                     </div>
                     <div className="w-full p-2  flex flex-col items-start justify-center">
                         <h2 className="text-2xl mb-4">

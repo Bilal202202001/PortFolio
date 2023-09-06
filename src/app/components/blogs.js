@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image'
 import React, { useState } from 'react';
 import 'app.css';
 import HeadingTemp from './headingTemp';
@@ -31,12 +32,13 @@ export default function Blogs() {
 
                             return (
                                 <div
+                                    key={index}
                                     className="relative w-full flex flex-col items-start justify-start rounded-lg border border-white border-opacity-20 bg-gray-400 bg-opacity-5 "
                                     // style={projectBoxStyle}
                                     onMouseEnter={() => handleMouseEnter(index)}
                                     onMouseLeave={handleMouseLeave}
                                 >
-                                    <img src={blog.img} className='w-full h-82 rounded-t-lg' alt='certificate' />
+                                    <Image height={500} width={500} src={blog.img} className='w-full h-82 rounded-t-lg' alt='certificate' />
                                     <div className='flex flex-col w-full items-center justify-evenly p-3'>
                                        <div className='w-full text-sm'>
                                        <h2><span className='mr-4 font-semibold text-yellow-500'>Title</span> {blog.title}</h2>

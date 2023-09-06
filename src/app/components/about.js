@@ -1,6 +1,5 @@
 'use client'
-import Link from "next/link";
-import * as Unicons from '@iconscout/react-unicons';
+import Image from 'next/image'
 import 'app.css'; // Import the CSS file you created
 import { useState } from "react";
 import HeadingTemp from "./headingTemp";
@@ -24,9 +23,9 @@ export default function About() {
                 Full Stack Web developer
                </h2>
                <p className=" mb-3">
-               I'm a full stack developer proficient in React.js, Node.js, and Express.js, crafting engaging user interfaces and seamless server-side architectures. With expertise in MongoDB, MySQL, and Next.js, I ensure robust data management and optimal web performance. My skills extend to Laravel, PHP, HTML, CSS, and JavaScript, enabling me to deliver dynamic and responsive applications.
+               I am a full stack developer proficient in React.js, Node.js, and Express.js, crafting engaging user interfaces and seamless server-side architectures. With expertise in MongoDB, MySQL, and Next.js, I ensure robust data management and optimal web performance. My skills extend to Laravel, PHP, HTML, CSS, and JavaScript, enabling me to deliver dynamic and responsive applications.
                </p>
-               <img src="/images/about3.jpg" alt="photo" className="w-5/6 rounded-md opacity-90"/>
+               <Image src="/images/about3.jpg" alt="photo" className="w-5/6 rounded-md opacity-90" width={500} height={500}/>
                </div> 
                <div className="w-full">
                                        
