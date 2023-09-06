@@ -10,7 +10,7 @@ export default function Contact() {
 
     return (
         <>
-            <div className="flex flex-col justify-center items-center h-auto w-full">
+            <div id='contact' className="flex flex-col justify-center items-center h-auto w-full">
                 <HeadingTemp heading={"CONTACT"} />
                 <div className="relative grid lg:grid-cols-2 md:grid-cols-1 p-5 w-full">
                     <div className='w-full rounded-lg flex justify-center'>

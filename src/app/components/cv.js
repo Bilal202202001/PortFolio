@@ -6,7 +6,7 @@ import HeadingTemp from "./headingTemp";
 export default function CV() {
     return (
         <>
-            <div className="flex flex-col justify-center items-center h-auto w-full">
+            <div id='aboutme' className="flex flex-col justify-center items-center h-auto w-full">
                 <HeadingTemp heading={"ABOUT ME"} />
                 <div className="w-5/6 grid lg:grid-cols-2 md:grid-cols-1 ">
                     <div className="w-full p-2  flex items-center justify-center">

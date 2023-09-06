@@ -11,7 +11,7 @@ export default function Reviews() {
 
     return (
         <>
-            <div className="flex flex-col justify-center items-center h-auto w-full">
+            <div id='reviews' className="flex flex-col justify-center items-center h-auto w-full">
                 <HeadingTemp heading={"REVIEWS"} />
                 <section className="flex justify-center items-center h-auto w-full px-10">
                     <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-[40px]">

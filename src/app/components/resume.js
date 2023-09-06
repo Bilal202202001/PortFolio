@@ -9,7 +9,7 @@ import ResumeMap from "./resumeMap";
 export default function Resume() {
     return (
         <>
-            <div className="flex flex-col justify-center items-center h-auto w-full">
+            <div id='resume' className="flex flex-col justify-center items-center h-auto w-full">
                 <HeadingTemp heading={"RESUME"} />
                 <div className="w-full grid lg:grid-cols-2 md:grid-cols-1 gap-5 px-20">
                     <div className="w-full ">

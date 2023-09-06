@@ -12,7 +12,7 @@ export default function Services() {
     
     return (
         <>
-            <div className="flex flex-col justify-center items-center h-auto w-full">
+            <div id="services" className="flex flex-col justify-center items-center h-auto w-full">
                 <HeadingTemp heading={"SERVICES"} />
                 <section className="flex justify-center items-center h-auto w-full p-10">
                         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-20 w-full">

@@ -20,7 +20,7 @@ export default function Certifications() {
 
     return (
         <>
-            <div className="flex flex-col justify-center items-center h-auto w-full">
+            <div id='certification' className="flex flex-col justify-center items-center h-auto w-full">
                 <HeadingTemp heading={"CERTIFICATIONS"} />
                 <section className="flex justify-center items-center h-auto w-full ">
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 p-4 gap-10 w-full">

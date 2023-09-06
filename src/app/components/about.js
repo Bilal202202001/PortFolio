@@ -15,7 +15,7 @@ export default function About() {
     }
 
     return (
-        <section className="flex flex-col justify-center items-center h-auto w-full">
+        <section id='skills' className="flex flex-col justify-center items-center h-auto w-full">
                 <HeadingTemp heading={'SKILLS'}/>
             <div className="grid lg:grid-cols-2 md:grid-cols-1 w-full p-5">
                <div className="w-full mr-5 p-3 flex flex-col justify-center items-center">

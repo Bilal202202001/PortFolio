@@ -20,7 +20,7 @@ export default function Blogs() {
 
     return (
         <>
-            <div className="flex flex-col justify-center items-center h-auto w-full">
+            <div id='blogs' className="flex flex-col justify-center items-center h-auto w-full">
                 <HeadingTemp heading={"BLOGS"} />
                 <section className="flex justify-center items-center h-auto w-full px-10">
                     <div className="grid w-full lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-[40px]">

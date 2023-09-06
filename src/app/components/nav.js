@@ -18,7 +18,7 @@ export default function NavBar() {
     return <>
 
         <nav className="flex lg:justify-evenly justify-between items-center w-full h-20 fixed bg-gray-800 bg-opacity-30 nav">
-            <div className="flex justify-center items-center w-2/6 ml-2">
+            <div className="flex justify-center items-center w-1/6 ml-2">
                 <Unicons.UilCreateDashboard className="w-8 h-8 " />
 
                 <h2 className="ml-2 font-semibold text-xl">
@@ -28,13 +28,21 @@ export default function NavBar() {
                     Art
                 </h2>
             </div>
-            <div className="navGen lg:flex hidden w-3/6 flex justify-between items-center  p-2 text-xs">
-                <Link href='/' className="font-lexend">HOME</Link>
-                <Link href='#projects' >PROFILE</Link>
-                <Link href='#'>RESUME</Link>
-                <Link href='#'>BLOGS</Link>
-                <Link href='#'>ABOUT ME</Link>
-                <Link href='#'>CONTACT</Link>
+            <div className="navGen lg:flex hidden w-4/6 flex flex-col justify-between items-center  p-2 text-sm">
+                <div className="flex w-full justify-between items-center">
+                <Link href='/'>HOME</Link>
+                <Link href='#projects' >PROJECTS</Link>
+                <Link href='#skills'>SKILLS</Link>
+                <Link href='#services'>SERVICES</Link>
+                <Link href='#resume'>RESUME</Link>
+                </div>
+                <div className="flex w-full justify-between items-center">
+                <Link href='#aboutme'>ABOUT ME</Link>
+                <Link href='#certification'>CERTIFICATION</Link>
+                <Link href='#reviews'>REVIEWS</Link>
+                <Link href='#blogs'>BLOGS</Link>
+                <Link href='#contact'>CONTACT</Link>
+                </div>
             </div>
             <div className="h-3 border lg:flex hidden border-white mx-5">
 
@@ -54,12 +62,17 @@ export default function NavBar() {
                                 <button onClick={navToggle} className="bg-opacity-30 bg-slate-950 w-full flex justify-end">
                                     <Unicons.UilTimes className="w-8 h-8 bg-opacity-30 bg-slate-950" />
                                 </button>
+
                                 <Link href='/' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">HOME</Link>
-                                <Link href='#projects' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">PROFILE</Link>
-                                <Link href='#' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">RESUME</Link>
-                                <Link href='#' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">BLOGS</Link>
-                                <Link href='#' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">ABOUT</Link>
-                                <Link href='#' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">CONTACT</Link>
+                                <Link href='#projects' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">PROJECTS</Link>
+                                <Link href='#skills' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">SKILLS</Link>
+                                <Link href='#services' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">SERVICES</Link>
+                                <Link href='#resume' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">RESUME</Link>
+                                <Link href='#aboutme' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">ABOUT ME</Link>
+                                <Link href='#certification' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">CERTIFICATION</Link>
+                                <Link href='#reviews' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">REVIEWS</Link>
+                                <Link href='#blogs' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">BLOGS</Link>
+                                <Link href='#contact' className="text-yellow-500 bg-opacity-30 bg-slate-950 w-full text-center font-bold text-sm hover:bg-opacity-100 p-2">CONTACT</Link>
                             </div>
                         </>
                         :
