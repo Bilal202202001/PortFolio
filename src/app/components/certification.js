@@ -26,10 +26,7 @@ export default function Certifications() {
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 p-4 gap-10 w-full">
                         {certifications.map((certificate, index) => {
                             const isHovered = index === hoveredIndex;
-                            {/* const projectBoxStyle = {
-                                backgroundImage: `url(${project.img})`,
-                            }; */}
-
+                            
                             return (
                                 <div
                                     key={index}
