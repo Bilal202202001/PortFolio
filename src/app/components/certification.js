@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image'
 import React, { useState } from 'react';
 import 'app.css';
 import HeadingTemp from './headingTemp';
@@ -31,12 +32,13 @@ export default function Certifications() {
 
                             return (
                                 <div
+                                    key={index}
                                     className="relative flex flex-col items-start justify-start  rounded-lg border border-white border-opacity-20 bg-gray-400 bg-opacity-5 "
                                     // style={projectBoxStyle}
                                     onMouseEnter={() => handleMouseEnter(index)}
                                     onMouseLeave={handleMouseLeave}
                                 >
-                                    <img src={certificate.img} className='w-full h-60 rounded-t-lg' alt='certificate' />
+                                    <Image height={500} width={500} src={certificate.img} className='w-full h-60 rounded-t-lg' alt='certificate' />
                                     <div className='flex w-full items-center justify-evenly my-5'>
                                         <div className='flex flex-col text-yellow-500 text-base font-semibold'>
                                             <ul>

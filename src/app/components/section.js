@@ -1,5 +1,6 @@
 'use client'
 import Link from "next/link";
+import Image from 'next/image'
 import * as Unicons from '@iconscout/react-unicons';
 import 'app.css'; // Import the CSS file you created
 import { useState } from "react";
@@ -17,7 +18,7 @@ export default function Section() {
             <div className="w-full flex flex-col justify-center  items-center h-5/6">
                 <div className="flex flex-col justify-start items-start w-full h-4/6 hire">
                     <h2 className=" text-3xl text-yellow-500">
-                        Hello, I'm
+                        Hello, I am
                     </h2>
                     <h2 className=" lg:text-8xl text-5xl  font-bold">
                         Muhammad
@@ -53,7 +54,7 @@ export default function Section() {
                 </div>
             </div>
             <div className="w-full flex items-center justify-center shadow-lg shadow-slate-950 h-10/12">
-                <img src="/images/profile.jpg" alt="profile" className="lg:w-4/6 w-5/6 h-full profile" />
+                <Image width={500} height={500} src="/images/profile.jpg" alt="profile" className="lg:w-4/6 w-5/6 h-full profile" />
             </div>
         </section>
     );

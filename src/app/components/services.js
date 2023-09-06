@@ -19,7 +19,10 @@ export default function Services() {
                             {services.map((service, index) => {
                                 const Icon = service.icon
                                 return (
-                                    <div className="flex w-full flex-col items-center justify-center border border-white border-opacity-20 bg-gray-400 bg-opacity-5">
+                                    
+                                    <div 
+                                    key={index}
+                                    className="flex w-full flex-col items-center justify-center border border-white border-opacity-20 bg-gray-400 bg-opacity-5">
                                         <div className="text-white hover:text-yellow-600 flex flex-col items-center justify-center w-full hover:border-yellow-600">
                                             <Icon size={60} id={index} className={`icon${index} border border-white border-opacity-20 p-3 rounded-2xl my-5`} />
                                             <h2 className="text-base font-semibold ">

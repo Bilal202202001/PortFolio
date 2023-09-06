@@ -14,7 +14,7 @@ export default function CV() {
                     </div>
                     <div className="w-full p-2  flex flex-col items-start justify-center">
                         <h2 className="text-2xl mb-4">
-                            Hi There! I'm Muhammad Bilal
+                            Hi There! I am Muhammad Bilal
                         </h2>
                         <h2 className="text-yellow-500 mb-4 font-bold text-xl">
                             Full Stack Developer

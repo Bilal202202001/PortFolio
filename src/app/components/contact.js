@@ -1,8 +1,8 @@
 'use client'
+import Image from 'next/image'
 import React from 'react';
 import 'app.css';
 import HeadingTemp from './headingTemp';
-import { reviews } from './data';
 import * as Unicons from '@iconscout/react-unicons';
 
 export default function Contact() {
@@ -10,12 +10,11 @@ export default function Contact() {
 
     return (
         <>
-
             <div className="flex flex-col justify-center items-center h-auto w-full">
                 <HeadingTemp heading={"CONTACT"} />
                 <div className="relative grid lg:grid-cols-2 md:grid-cols-1 p-5 w-full">
                     <div className='w-full rounded-lg flex justify-center'>
-                        <img src='/images/contact.jpg' alt='contact' className='lg:w-3/5 w-4/5 h-76 rounded-lg' />
+                        <Image height={500} width={500} src='/images/contact.jpg' alt='contact' className='lg:w-3/5 w-4/5 h-76 rounded-lg' />
                     </div>
                     <form className='flex flex-col w-full'>
                         <div className='flex w-full'>
